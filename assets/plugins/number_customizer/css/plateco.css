@@ -1,0 +1,1583 @@
+ #tabStyle #showTextStyle_Custom {
+    display: none !important;
+ }
+ #tabBackground {
+    display: none !important;
+ }
+ .container {
+    padding: 0 0 0 15px;
+    position: relative;
+ }
+ .wrapper .navigation-bar .nav ul li#menu-item-11 a {
+    color: #FFCC00;
+ }
+ #midplatearea>div {
+    float: left;
+ }
+ #plateNavContainer {
+    width: 250px;
+    margin: 0 50px 0 0;
+ }
+ #platespace {
+    border: 0;
+    /*background: url(../images/loader.gif) no-repeat center center;
+
+    */
+    position: relative;
+    width: 720px;
+    margin: 0 15px 0 0;
+    text-align: center;
+ }
+ #platespace #loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+ }
+ #platespace h1 {
+    display: block;
+    text-align: center;
+    font-size: 17px;
+    margin: 0px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #333;
+ }
+ #platespace #buttonReset, #platespace #plateBothPlates, #platespace #plateFrontPlate, #platespace #plateRearPlate {
+    float: left;
+    text-decoration: none;
+ }
+ #platespace #plateBothPlates, #platespace #plateFrontPlate, #platespace #plateRearPlate {
+    padding-bottom: 66px;
+    width: 103px;
+    background: url(../images/frontandrear.png) no-repeat bottom center;
+ }
+ #platespace #plateFrontPlate {
+    background: url(../images/frontonly.png) no-repeat bottom center;
+ }
+ #platespace #plateRearPlate {
+    background: url(../images/rearonly.png) no-repeat bottom center;
+ }
+ #platespace #plateBothPlates.current {
+    background: url(../images/frontandrear-active.png) no-repeat bottom center;
+ }
+ #platespace #plateFrontPlate.current {
+    background: url(../images/frontonly-active.png) no-repeat bottom center;
+ }
+ #platespace #plateRearPlate.current {
+    background: url(../images/rearonly-active.png) no-repeat bottom center;
+ }
+ #platespace #buttonReset {
+    margin: 0 10px;
+ }
+ #platespace #buttonReset span, #platespace #plateBothPlates span, #platespace #plateFrontPlate span, #platespace #plateRearPlate span {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 700;
+    color: #333333;
+    text-decoration: none;
+    margin: 0 0 5px;
+ }
+ #platespace #plateprice {
+    float: left;
+    overflow: hidden;
+ }
+ #platespace #plateprice #plateoptions {
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+ }
+ #platespace #plateprice #plateoptions li {
+    float: left;
+    margin: 0 7px 0 0;
+ }
+ #plateprice #plate-price {
+    width: 105px;
+    float: left;
+    margin: 0 10px;
+ }
+ #plateprice #plate-price p, #plateprice #plate-price>span {
+    font-size: 14px;
+    color: #333;
+    font-weight: 700;
+    margin: 25px 0 0;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    line-height: 14px;
+ }
+ #plateprice #plate-price>span {
+    font-size: 30px;
+    margin: 0;
+    line-height: 30px;
+ }
+ #buttonBuy {
+    float: left;
+    display: block;
+    margin: 18px 5px 0 0;
+ }
+ #plateForm {
+    position: relative;
+ }
+ #plateNav {
+    width: 100%;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+ }
+ #plateNav>li {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    padding: 5px 10px;
+    background: url(../images/platenav-bg.png) repeat-x #fff;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    position: relative;
+    overflow: hidden;
+    margin: 0px auto 1px auto;
+ }
+ #plateNav>li.current {
+    color: #ffcc00;
+    height: auto;
+ }
+ #plateNav>li.current div .current {
+    position: relative;
+ }
+ #plateNav>li:first-child {
+    border-radius: 3px 3px 0 0;
+ }
+ #plateNav li div.plateBlock {
+    border: none !important;
+    background: #fff;
+    margin: 10px auto
+ }
+ #plateNav>li>div {
+    position: relative;
+    cursor: auto;
+ }
+ #plateNav .plateBlock {
+    line-height: 14px;
+    font-size: 12px;
+    text-transform: none;
+    color: #333;
+ }
+ #plateNav .plateBlock>h2 {
+    margin: 10px 0;
+    color: #333;
+    font-size: 14px;
+    text-transform: capitalize;
+    line-height: 16px;
+ }
+ #plateNav #plateReg input, #plateNav #plateSlogan input {
+    width: 188px;
+    font-weight: 700;
+    color: #002d3b;
+    margin: 0 0 10px;
+ }
+ #plateNav .plateBlock p {
+    font-size: 11px;
+    color: #aaa;
+    text-transform: none;
+    line-height: 14px;
+    margin: 0 0 10px;
+ }
+ #plateNav .plateBlock ul {
+    margin: 10px 0 0;
+    padding: 0;
+    list-style: none;
+    line-height: 14px;
+ }
+ #plateNav .plateBlock ul li {
+    /*border-bottom: 1px dashed;
+
+    */
+    font-size: 13px;
+    line-height: 18px;
+    list-style: outside none none;
+    margin: 0 10px 10px 0;
+    padding: 0 0 0;
+ }
+ #plateNav #formPlateSizeList ul.plateSizeMenu li {
+    font-size: 11px;
+ }
+ #plateNav .plateBlock ul li a {
+    text-decoration: none;
+ }
+ #plateNav .plateBlock ul ul {
+    margin: 0 0 0 15px;
+ }
+ #formPlateSizeList {
+    margin: 0 0 10px;
+    padding: 0;
+ }
+ #formPlateSizeList li {
+    margin: 0 0 5px;
+ }
+ #plateNav #formPlateSizeList ul.plateSizeMenu {
+    margin: 10px 0 0 15px;
+ }
+ #mainFontBlock a {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 10px 0px;
+ }
+ .scrollBlock {
+    clear: both;
+    overflow: hidden;
+    height: 190px;
+    position: relative;
+ }
+ .colourList li, #formBackgroundColourList li, #formBorderColourList li, #formSloganColourList li {
+    display: block;
+    width: 44px;
+    height: 44px;
+    border: 1px solid #e5e5e5;
+    float: left;
+    margin: 1px;
+    overflow: hidden;
+ }
+ #formSloganColourList li {
+    display: block;
+    width: 44px;
+    height: 44px;
+    border: 1px solid #e5e5e5;
+    float: left;
+    margin: 1px;
+ }
+ .colourList li a, #formBorderColourList li a, #formBackgroundColourList li a, #formSloganColourList li a {
+    display: table-cell;
+    height: 43px;
+    text-align: center;
+    vertical-align: middle;
+    width: 43px;
+    text-transform: uppercase;
+    color: #999999;
+    font-weight: 400;
+    font-size: 10px;
+    padding: 1px;
+ }
+ #formSloganColourList li a {
+    display: table-cell;
+    height: 43px;
+    text-align: center;
+    vertical-align: middle;
+    width: 43px;
+    text-transform: uppercase;
+    color: #999999;
+    font-weight: 400;
+    font-size: 10px;
+    padding: 1px;
+ }
+ .colourList li.current, #formSloganColourList li.current, #formBackgroundColourList li.current, #formBorderColourList li.current {
+    border: 2px solid #000;
+    padding: 0;
+    width: 42px;
+    height: 42px;
+ }
+ .colourList li.current a, #formBackgroundColourList li.current a, #formBorderColourList li.current a, #formSloganColourList li.current a {
+    height: 41px;
+    width: 41px;
+ }
+ .colourList {
+    height: auto;
+ }
+ .scrollBlock {}
+ #badgesWrapper, #flagsWrapper {
+    margin: 0 0 10px 4px;
+    overflow: hidden;
+    width: 198px !important;
+ }
+ .scrollBlockBadge a, .scrollBlockFlag a {
+    width: 34px;
+    height: 90px;
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #999999;
+    font-weight: 400;
+    font-size: 10px;
+    padding: 1px;
+    float: left;
+    border: 1px solid #e5e5e5;
+    margin: 4px;
+ }
+ .scrollBlockFlag a {
+    background-color: #ccc !important;
+ }
+ .scrollBlockBadge a i {
+    padding-top: 36px;
+    display: block;
+    font-style: none;
+ }
+ .scrollBlockBadge a.current {
+    border: 2px solid #000;
+    padding: 0;
+    width: 34px;
+    height: 90px;
+ }
+ #plateBadge a.button, #plateText a.button {
+    float: left;
+    width: 48px;
+    margin: 0 0 10px 6px;
+    text-align: center;
+    font-size: 10px;
+    line-height: 10px;
+    padding: 6px 8px 7px;
+    color: #000;
+    text-decoration: none;
+ }
+ #plateText a.button.first, #plateBadge a.button.first {
+    margin: 0;
+ }
+ #plateText a.current.button, #plateBadge a.current.button {
+    background: url(../images/button-current.png);
+    cursor: default;
+ }
+ #plateFittingKit {
+    padding: 10px 0;
+    display: block;
+ }
+ #showColoursContent {
+    display: none;
+ }
+ #plateImage.wide {
+    width: 720px;
+ }
+ #formPlateSizeList a {
+    color: #333;
+ }
+ #plateNav #formPlateSizeList ul.plateSizeMenu {
+    font-size: 11px;
+    padding: 0 0;
+    margin: 10px 0 0;
+    list-style: disc outside none;
+ }
+ #plateNav #formPlateSizeList ul.plateSizeMenu a {
+    color: #4262B9;
+ }
+ #plateNav .tick {
+    display: block;
+    /*position: absolute;
+
+    */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../images/current-selected.png) no-repeat center center;
+ }
+ .handle {
+    position: absolute;
+    right: 2px;
+    z-index: 100;
+ }
+ .scrollable {
+    position: absolute;
+    width: 202px;
+    border-right: 1px solid #e1e1e1;
+ }
+ .basket_info_wrapper {
+    position: absolute;
+    right: 10px;
+    width: 570px;
+ }
+ div.basket_box .basket_info_wrapper {
+    position: relative;
+    width: 562px;
+    height: auto;
+ }
+ div.basket_box .basket_info_wrapper .clearer {
+    display: none;
+ }
+ div.basket_box .basket_info_wrapper .basket_info {
+    margin-bottom: 0;
+ }
+ #confirmation .basket_info {
+    width: 100%;
+ }
+ .registrationInfo {
+    color: #333 !important;
+ }
+ #plateStyle_wrapper ul, #plateMaterial ul {
+    overflow: hidden;
+    margin: 5px 0 0 0 !important;
+ }
+ #plateStyle_wrapper li, #plateMaterial li {
+    position: relative;
+    height: 40px;
+ }
+ #plateStyle_wrapper li img, #plateMaterial li img {
+    float: left;
+    padding-left: 5px;
+ }
+ #plateStyle_wrapper li .tick, #plateMaterial li .tick {
+    display: none;
+    z-index: 1;
+    background: url(../images/current-selected-small.png) no-repeat center center;
+    left: auto;
+    right: 5px;
+    width: 35px;
+    z-index: 1;
+    height: 35px;
+ }
+ #plateStyle_wrapper li.active .tick, #plateMaterial li.active .tick {
+    display: block;
+    position: absolute;
+ }
+ #plateNavContainer #plateNav #plateFitting ul {
+    margin: 5px 0 0;
+ }
+ #plateNavContainer #plateNav #plateFitting li {
+    position: relative;
+    margin: 0 0 5px;
+    overflow: hidden;
+    padding-left: 42px;
+    height: 37px;
+ }
+ #plateNavContainer #plateNav #plateFitting li {
+    background-repeat: no-repeat
+ }
+ #plateNavContainer #plateNav #plateFitting li#antiTheftKit {
+    background: url(../images/anti-theft.jpg) no-repeat;
+ }
+ #plateNavContainer #plateNav #plateFitting li#motorcyclePlate {
+    background: url(../images/motorcycle.jpg) no-repeat;
+ }
+ #plateNavContainer #plateNav #plateFitting li#standardKit {
+    background: url(../images/standard-screw.jpg) no-repeat;
+ }
+ #plateNavContainer #plateNav #plateFitting li#stickyPads {
+    background: url(../images/sticky-pads.jpg) no-repeat;
+ }
+ #plateNavContainer #plateNav #plateFitting li#WhiteSurround {
+    background: url(../images/white-surround.jpg) no-repeat;
+ }
+ #plateNavContainer #plateNav #plateFitting li#ChromeSurroundWide {
+    background: url(../images/chrome-surround-wide.jpg) no-repeat;
+ }
+ #plateNavContainer #plateNav #plateFitting li#ChromeSurroundThin {
+    background: url(../images/chrome-surround-thin.jpg) no-repeat;
+ }
+ #plateNavContainer #plateNav #plateFitting li#ChromeSurround4x4 {
+    background: url(../images/chrome-surround.jpg) no-repeat;
+ }
+ #plateNavContainer #plateNav #plateFitting li#CarbonSurround {
+    background: url(../images/carbon-surround.jpg) no-repeat;
+ }
+ #plateNavContainer #plateNav #plateFitting li#PinkSurround {
+    background: url(../images/pink-surround.jpg) no-repeat;
+ }
+ #plateNavContainer #plateNav #plateFitting .selector {
+    float: right;
+ }
+ #plateNavContainer #plateNav #plateFitting li span {
+    float: left;
+    line-height: 1;
+    width: 95px;
+ }
+ #plateNavContainer #plateNav #plateFitting li>span, #plateNavContainer #plateNav #plateFitting li>div {
+    font-size: 10px;
+    bottom: 0;
+    height: 20px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+ }
+ #plateNavContainer #plateNav #plateFitting li>div {
+    right: 0;
+ }
+ #plateNavContainer #plateNav #plateFitting li .selector span {
+    width: auto;
+    line-height: 21px;
+ }
+ #plateNavContainer #plateNav #plateFitting li a {
+    display: block;
+    float: left;
+    margin: 0 5px 0;
+    background: url(../images/minus-button.png) no-repeat center center;
+    height: 20px;
+    width: 20px;
+    text-indent: -9999px;
+    overflow: hidden;
+ }
+ #plateNavContainer #plateNav #plateFitting li a.plus {
+    background: url(../images/plus-button.png) no-repeat center center;
+ }
+ .response_text {
+    padding-right: 15px;
+ }
+ .response_text p.highlight {
+    font-size: 28px;
+    color: #c30907;
+ }
+ .response_text menu, .response_text ol, .response_text ul {
+    padding: 0;
+ }
+ .response_text ol.highlight {
+    list-style: initial;
+    padding-left: 15px;
+ }
+ .response_text ol.highlight.identity li {
+    list-style-type: decimal;
+ }
+ .response_text ol.highlight.owner li {
+    list-style-type: lower-alpha;
+ }
+ .response_text ol li {
+    background: none;
+    list-style: initial;
+ }
+ .response_text h4 {
+    text-transform: uppercase;
+    margin: 35px 0 8px !important;
+ }
+ .response_text ul {
+    list-style: none;
+    padding-right: 15px;
+ }
+ .response_text li, .response_text p {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 0 8px;
+ }
+ .response_text li {
+    background: url(../img/bullet.png) no-repeat 3px 6px;
+    padding: 0 0 0 18px;
+ }
+ .response_text .highlight li {
+    color: #c30907;
+    font-size: 14px;
+    font-weight: bold;
+ }
+ .response_text p {
+    padding-right: 15px;
+ }
+ .archive-title, .page-title, .widget-title, .entry-content th, .comment-content th {
+    font-size: 11px;
+    font-size: 0.785714286rem;
+    line-height: 2.181818182;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #636363;
+ }
+ article.format-quote footer.entry-meta, article.format-link footer.entry-meta, article.format-status footer.entry-meta {
+    font-size: 11px;
+    font-size: 0.785714286rem;
+    line-height: 2.181818182;
+ }
+ button, input, textarea {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-family: inherit;
+    padding: 6px;
+    padding: 0.428571429rem;
+ }
+ button, input {
+    line-height: normal;
+ }
+ textarea {
+    font-size: 100%;
+    overflow: auto;
+    vertical-align: top;
+ }
+ input[type="checkbox"], input[type="radio"], input[type="file"], input[type="hidden"], input[type="image"], input[type="color"] {
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+ }
+ .menu-toggle, input[type="submit"], input[type="button"], input[type="reset"], article.post-password-required input[type=submit], li.bypostauthor cite span {
+    padding: 6px 10px;
+    padding: 0.428571429rem 0.714285714rem;
+    font-size: 11px;
+    font-size: 0.785714286rem;
+    line-height: 1.428571429;
+    font-weight: normal;
+    color: #7c7c7c;
+    background-color: #e6e6e6;
+    background-repeat: repeat-x;
+    background-image: -moz-linear-gradient(top, #f4f4f4, #e6e6e6);
+    background-image: -ms-linear-gradient(top, #f4f4f4, #e6e6e6);
+    background-image: -webkit-linear-gradient(top, #f4f4f4, #e6e6e6);
+    background-image: -o-linear-gradient(top, #f4f4f4, #e6e6e6);
+    background-image: linear-gradient(top, #f4f4f4, #e6e6e6);
+    border: 1px solid #d2d2d2;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(64, 64, 64, 0.1);
+ }
+ .menu-toggle, button, input[type="submit"], input[type="button"], input[type="reset"] {
+    cursor: pointer;
+ }
+ button[disabled], input[disabled] {
+    cursor: default;
+ }
+ .menu-toggle:hover, button:hover, input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hover, article.post-password-required input[type=submit]:hover {
+    color: #5e5e5e;
+    background-color: #ebebeb;
+    background-repeat: repeat-x;
+    background-image: -moz-linear-gradient(top, #f9f9f9, #ebebeb);
+    background-image: -ms-linear-gradient(top, #f9f9f9, #ebebeb);
+    background-image: -webkit-linear-gradient(top, #f9f9f9, #ebebeb);
+    background-image: -o-linear-gradient(top, #f9f9f9, #ebebeb);
+    background-image: linear-gradient(top, #f9f9f9, #ebebeb);
+ }
+ .menu-toggle:active, .menu-toggle.toggled-on, button:active, input[type="submit"]:active, input[type="button"]:active, input[type="reset"]:active {
+    color: #757575;
+    background-color: #e1e1e1;
+    background-repeat: repeat-x;
+    background-image: -moz-linear-gradient(top, #ebebeb, #e1e1e1);
+    background-image: -ms-linear-gradient(top, #ebebeb, #e1e1e1);
+    background-image: -webkit-linear-gradient(top, #ebebeb, #e1e1e1);
+    background-image: -o-linear-gradient(top, #ebebeb, #e1e1e1);
+    background-image: linear-gradient(top, #ebebeb, #e1e1e1);
+    box-shadow: inset 0 0 8px 2px #c6c6c6, 0 1px 0 0 #f4f4f4;
+    border: none;
+ }
+ li.bypostauthor cite span {
+    color: #fff;
+    background-color: #21759b;
+    background-image: none;
+    border: 1px solid #1f6f93;
+    border-radius: 2px;
+    box-shadow: none;
+    padding: 0;
+ }
+ img.wp-smiley, img.emoji {
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 .07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+ }
+ .wrapperr {
+    margin: 0px auto;
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+ }
+ #form_register_context_box {
+    clear: both;
+ }
+ #form_register_context_box input.text {
+    color: #fff !important;
+    outline: none !important
+ }
+ #form_register_context_box .entries {
+    position: absolute;
+    margin: -44px 0px 0px 5px
+ }
+ #form_register_context_box .entries input {
+    padding: 3px 1px !important;
+    float: left !important;
+    outline: 0px none;
+    text-align: center;
+    display: block !important;
+    width: 20px !important;
+    border: 0px none !important;
+    background: #eee;
+    text-transform: uppercase;
+    margin: 4px 1px 0px 1px !important;
+ }
+ .number-plat-1 {
+    padding: 0px;
+    margin: 0px auto 30px auto;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    background-color: #CCC;
+    min-height: 400px;
+ }
+ .number-plat-2 {
+    padding: 0px;
+    margin: 0px auto 15px auto;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    background-color: #CCC;
+    min-height: 200px;
+ }
+ .number-plat-3 {
+    padding: 0px;
+    margin: 0px auto 15px auto;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    background-color: #CCC;
+    min-height: 200px;
+ }
+ /**21-09-17**/
+
+ .front-defolt {
+    padding: 0px;
+    margin: 10px auto 30px auto;
+    width: auto;
+    height: auto;
+    /*min-height:178px;
+
+     */
+    min-height: 133px;
+    /*background:#FFF;
+
+    */
+    background: rgba(247, 247, 247, 1);
+    background: -moz-linear-gradient(top, rgba(247, 247, 247, 1) 0%, rgba(215, 215, 215, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(247, 247, 247, 1)), color-stop(100%, rgba(215, 215, 215, 1)));
+    background: -webkit-linear-gradient(top, rgba(247, 247, 247, 1) 0%, rgba(215, 215, 215, 1) 100%);
+    background: -o-linear-gradient(top, rgba(247, 247, 247, 1) 0%, rgba(215, 215, 215, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(247, 247, 247, 1) 0%, rgba(215, 215, 215, 1) 100%);
+    background: linear-gradient(to bottom, rgba(247, 247, 247, 1) 0%, rgba(215, 215, 215, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#d7d7d7', GradientType=0);
+    border-radius: 15px;
+    box-shadow: inset 0 0 10px 0 rgba(55, 54, 54, 0.4);
+    -moz-box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    border: 1px solid #525252;
+    position: relative;
+    /*-webkit-box-shadow: -1px 11px 66px -12px rgba(0,0,0,0.75);
+
+     -moz-box-shadow: -1px 11px 66px -12px rgba(0,0,0,0.75);
+
+     box-shadow: -1px 11px 66px -12px rgba(0,0,0,0.75);
+
+    */
+ }
+ #platdiv_Y {
+    background: rgba(248, 250, 129, 1);
+    background: -moz-linear-gradient(top, rgba(248, 250, 129, 1) 0%, rgba(217, 217, 0, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(248, 250, 129, 1)), color-stop(100%, rgba(217, 217, 0, 1)));
+    background: -webkit-linear-gradient(top, rgba(248, 250, 129, 1) 0%, rgba(217, 217, 0, 1) 100%);
+    background: -o-linear-gradient(top, rgba(248, 250, 129, 1) 0%, rgba(217, 217, 0, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(248, 250, 129, 1) 0%, rgba(217, 217, 0, 1) 100%);
+    background: linear-gradient(to bottom, rgba(248, 250, 129, 1) 0%, rgba(217, 217, 0, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8fa81', endColorstr='#d9d900', GradientType=0);
+ }
+ .Standard-4x4-plates, .largerearplatecar {
+    background: rgba(247, 247, 247, 1) !important;
+    background: -moz-linear-gradient(top, rgba(247, 247, 247, 1) 0%, rgba(215, 215, 215, 1) 100%)!important;
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(247, 247, 247, 1)), color-stop(100%, rgba(215, 215, 215, 1)))!important;
+    background: -webkit-linear-gradient(top, rgba(247, 247, 247, 1) 0%, rgba(215, 215, 215, 1) 100%)!important;
+    background: -o-linear-gradient(top, rgba(247, 247, 247, 1) 0%, rgba(215, 215, 215, 1) 100%)!important;
+    background: -ms-linear-gradient(top, rgba(247, 247, 247, 1) 0%, rgba(215, 215, 215, 1) 100%)!important;
+    background: linear-gradient(to bottom, rgba(247, 247, 247, 1) 0%, rgba(215, 215, 215, 1) 100%)!important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#d7d7d7', GradientType=0)!important;
+    border: 1px solid #525252;
+    border-radius: 15px!important;
+ }
+ .Standard-4x4-plates-1, .largerearplatecar-1, .motorcycle-plates {
+    background: rgba(248, 250, 129, 1)!important;
+    background: -moz-linear-gradient(top, rgba(248, 250, 129, 1) 0%, rgba(217, 217, 0, 1) 100%)!important;
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(248, 250, 129, 1)), color-stop(100%, rgba(217, 217, 0, 1)))!important;
+    background: -webkit-linear-gradient(top, rgba(248, 250, 129, 1) 0%, rgba(217, 217, 0, 1) 100%)!important;
+    background: -o-linear-gradient(top, rgba(248, 250, 129, 1) 0%, rgba(217, 217, 0, 1) 100%)!important;
+    background: -ms-linear-gradient(top, rgba(248, 250, 129, 1) 0%, rgba(217, 217, 0, 1) 100%)!important;
+    background: linear-gradient(to bottom, rgba(248, 250, 129, 1) 0%, rgba(217, 217, 0, 1) 100%)!important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8fa81', endColorstr='#d9d900', GradientType=0)!important;
+    border: 1px solid #525252;
+    border-radius: 15px!important;
+ }
+ .front-defolt h2 {
+    color: #000;
+    /*font-family:REGISTRATION PLATE UK;
+
+     font-size: 109px;
+
+    */
+    font-family: REGISTRATION\ PLATE\ UK;
+    font-size: 90px !important;
+    font-weight: normal;
+    letter-spacing: 5px;
+    line-height: 130px;
+    /*line-height: 147px;
+
+    */
+    /* margin: 19px auto 0;
+
+    */
+    margin: 0 auto 0;
+    padding: 0 0 0 10px;
+    text-transform: uppercase;
+    /*text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);*/
+ }
+ .front-defolt p {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin: 5px auto;
+    padding: 0;
+ }
+ .front-defolt img {
+    padding: 0 5px 0 0;
+    /* margin:10px auto;
+
+     width:50px;
+
+     height:auto;
+
+     width:100%;
+
+     height:133px;
+
+    
+
+     position: absolute;
+
+     left: 15px;
+
+     top: 25px;
+
+     background: #0f2fb0;
+
+     padding: 10px 5px;
+
+     border-radius: 6px;*/
+ }
+ .front-bredge-1 {
+    padding: 0px;
+    margin: 0px auto;
+    /* width:70px;*/
+    height: auto;
+ }
+ .front-bredge-2 {
+    padding: 0px;
+    margin: 0px auto;
+    width: 620px;
+    height: auto;
+    min-height: 119px;
+ }
+ .front-bredge-3 {
+    padding: 0px;
+    margin: 0px auto;
+    width: 100%;
+    height: auto;
+    min-height: 114px;
+    /*float:left;
+
+    */
+ }
+ .front-boder {
+    padding: 15px 0px 0px 0px;
+    margin: 0px auto;
+    width: 99%;
+    height: auto;
+    /*border:solid 2px #F00;*/
+    border-radius: 14px;
+    /*min-height: 160px;
+
+    */
+ }
+ .front-boder-width {
+    width: 86%;
+    height: auto;
+    margin: 0px 0px 0px 1%;
+ }
+ .badge-bgclr {
+    position: absolute;
+    height: 100%;
+    background: #000ab1;
+    padding: 0 15px;
+    border-radius: 10px 0 0 10px;
+    ;
+ }
+ .badge-bgclr img {
+    /* position: absolute;
+
+    top: 9px;
+
+    left: 11px;
+
+    background: #153ad3;
+
+    padding: 20px 10px; 
+
+    border-radius: 5px;
+
+      transform: translateY(50%);*/
+    height: 124px;
+    margin-top: 6px;
+ }
+ /*.slogan {
+
+     bottom: 0;
+
+     height: auto;
+
+     margin: 0 auto;
+
+     min-height: 30px;
+
+     padding: 0;
+
+     position: absolute;
+
+     width:100%;
+
+     right: 10px;
+
+     text-align:center
+
+}
+
+*/
+
+ .slogan {
+    bottom: 0;
+    height: auto;
+    margin: 0 auto;
+    /* min-height: 20px;*/
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    overflow: hidden;
+    text-overflow: clip;
+    /*background-color:#093;
+
+    */
+ }
+ /*.slogan-a {
+
+     bottom: 0;
+
+     height: auto;
+
+     margin: 0 auto;
+
+     min-height: 30px;
+
+     padding: 0;
+
+     position: absolute;
+
+     width:343px !important;
+
+     text-align: center;
+
+     left: 27px;
+
+     overflow:hidden;
+
+     text-overflow:clip;
+
+}
+
+*/
+
+ .slogan-1 {
+    background-color: #FFF;
+    color: #000;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin: 5px auto;
+    padding: 0 10px;
+    width: auto;
+ }
+ .slogan-1a {
+    background-color: #FC0;
+    color: #000;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin: 5px auto;
+    padding: 0 10px;
+    width: auto;
+ }
+ .motorcycle-plates {
+    background-color: #fec224;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    height: auto;
+    margin: 10px auto 30px;
+    min-height: 340px;
+    padding: 0px;
+    position: relative;
+    width: 488px;
+ }
+ .motorcycle-plates-boder-1 {
+    padding: 0px;
+    margin: 0px auto;
+    width: 70px;
+    height: auto;
+    min-height: 328px;
+    float: left;
+ }
+ .motorcycle-plates-boder-2 {
+    padding: 0px;
+    margin: 0px auto 0px 10px;
+    width: 360px;
+    height: auto;
+    min-height: 328px;
+    float: left;
+ }
+ .motorcycle-plates-boder-3 {
+    float: left;
+    height: auto;
+    margin: 0 auto;
+    min-height: 328px;
+    padding: 0;
+    width: 99%;
+ }
+ .motorcycle-plates h2 {
+    color: #000;
+    font-family: "Teko", sans-serif;
+    font-family: REGISTRATION\ PLATE\ UK;
+    font-size: 120px;
+    font-weight: normal;
+    letter-spacing: 5px;
+    line-height: 146px;
+    margin: 30px auto 5px;
+    padding: 0;
+    text-transform: uppercase;
+ }
+ .motorcycle-slogan {
+    bottom: 0;
+    height: auto;
+    margin: 7px auto;
+    min-height: 30px;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    /* right: 10px;
+
+    */
+    text-align: center
+ }
+ .motorcycle-slogan-1 {
+    background-color: #fec224;
+    color: #000;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin: 5px auto;
+    padding: 0 10px;
+    width: auto;
+ }
+ .Standard-4x4-plates {
+    background: #FFF none repeat scroll 0 0;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    height: auto;
+    margin: 10px auto 30px;
+    min-height: 140px;
+    padding: 0px;
+    position: relative;
+    width: 555px;
+ }
+ .Standard-4x4-plates-1 {
+    padding: 0px;
+    margin: 10px auto 30px auto;
+    width: 350px;
+    height: auto;
+    min-height: 252px;
+    background: #FC0;
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px 0 rgba(55, 54, 54, 0.4);
+    -moz-box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    position: relative;
+ }
+ .Standard-4x4-plates-boder-1 {
+    padding: 0px;
+    margin: 0px auto 0px auto;
+    width: 70px;
+    /*   height:auto
+
+     min-height:132px;;*/
+    float: left;
+ }
+ .Standard-4x4-plates-boder-2 {
+    padding: 0px;
+    margin: 0px auto;
+    width: 370px;
+    height: auto;
+    min-height: 327px;
+    float: left;
+ }
+ .Standard-4x4-plates-boder-3 {
+    /*float: left;*/
+    height: auto;
+    margin: 0 auto;
+    /*min-height:140px;*/
+    padding: 0;
+    width: 99%;
+ }
+ .Standard-4x4-plates-boder-3, .images_black_alpha {}
+ .standerd_slogan_div_2cls {
+    right: -60px !important;
+ }
+ .Standard-4x4-plates-boder-3a {
+    float: left;
+    height: auto;
+    margin: 0px 0px 0px 0px;
+    min-height: 102px;
+    padding: 0;
+    width: 86%;
+ }
+ .Standard-4x4-plates-1 .front-boder {
+    /* min-height:255px;*/
+ }
+ .Standard-4x4-plates h2 {
+    color: #000;
+    /*font-family: "Teko",sans-serif;*/
+    font-family: REGISTRATION\ PLATE\ UK;
+    font-size: 75px;
+    font-weight: normal;
+    letter-spacing: 5px;
+    line-height: 130px;
+    margin: 0 auto;
+    padding: 5px 0px 0px 0px;
+    text-transform: uppercase;
+ }
+ .Standard-4x4-plates-1 h2 {
+    color: #000;
+    /*  font-family: "Teko",sans-serif;*/
+    font-family: REGISTRATION\ PLATE\ UK;
+    font-size: 85px;
+    font-weight: normal;
+    letter-spacing: 5px;
+    line-height: 100px;
+    margin: 15px auto 5px;
+    padding: 0;
+    text-transform: uppercase;
+ }
+ .Standard-4x4-slogan {
+    bottom: 0;
+    height: auto;
+    margin: 0 auto;
+    min-height: 30px;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    /* right: 10px;
+
+    */
+    text-align: center
+ }
+ .Standard-4x4-slogan-1 {
+    background-color: #fec224;
+    color: #000;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin: 5px auto;
+    padding: 0 10px;
+    width: auto;
+ }
+ .standerd_slogan_div_2 {
+    bottom: 0;
+    height: auto;
+    margin: 0px auto;
+    min-height: 30px;
+    padding: 0;
+    position: absolute;
+    /*  width:89%;
+
+   right: 10px;
+
+     */
+    text-align: center;
+ }
+ .stfront-boder-a {
+    padding: 0px;
+    margin: 0px 0px 0px 11px;
+    width: 94%;
+    height: auto;
+    /* border: solid 3px #F00;
+
+     */
+    border-radius: 5px;
+    min-height: 160px;
+ }
+ .stfront-boder {
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    width: 78%;
+    height: auto;
+    /* border: solid 3px #F00;
+
+     */
+    border-radius: 5px;
+    min-height: 160px;
+ }
+ .slogan-a {
+    background-color: #d7d7d7;
+    color: #000;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin: 5px auto;
+    padding: 0 10px;
+    width: auto;
+ }
+ .largerearplatecar {
+    background: #FFF none repeat scroll 0 0;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    height: auto;
+    margin: 10px auto 30px;
+    min-height: 134px;
+    padding: 0px;
+    position: relative;
+    width: auto;
+ }
+ .largerearplatecar-1 {
+    padding: 0px;
+    margin: 10px auto 30px auto;
+    width: auto;
+    height: auto;
+    min-height: 150px;
+    background: #FC0;
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px 0 rgba(55, 54, 54, 0.4);
+    -moz-box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    position: relative;
+ }
+ .largerearplatecar-boder-1 {
+    padding: 0px;
+    margin: 0px auto;
+    width: 70px;
+    height: auto;
+    min-height: 100% !important;
+    float: left;
+ }
+ .largerearplatecar-1 .front-boder {
+    min-height: 243px;
+ }
+ .largerearplatecar-boder-3 {
+    float: left;
+    height: 0;
+    margin: 0 auto;
+    min-height: 110px;
+    padding: 0;
+    width: 99%;
+ }
+ /*.largerearplatecar-1 .front-boder{
+
+    min-height:284px;
+
+}
+
+*/
+
+ .largerearplatecar-1 .front-boder {
+    min-height: 188px;
+    padding-left: 0;
+ }
+ .largerearplatecar h2 {
+    color: #000;
+    /*     font-family: "Teko",sans-serif;*/
+    font-family: "REGISTRATION PLATE UK";
+    font-size: 80px;
+    font-weight: normal;
+    letter-spacing: 5px;
+    /*line-height: 110px;*/
+    margin: 0 auto;
+    padding: 10px 0 0 0;
+    text-transform: uppercase;
+ }
+ .largerearplatecar-1 h2 {
+    color: #000;
+    /* font-family: "Teko",sans-serif;*/
+    font-family: REGISTRATION\ PLATE\ UK;
+    font-size: 100px;
+    font-weight: normal;
+    letter-spacing: 5px;
+    /*line-height: 150px;*/
+    margin: 15px auto 5px;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+ }
+ .largerearplatecar-slogan {
+    bottom: 0;
+    height: auto;
+    margin: 0 auto;
+    min-height: 30px;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    /* right: 10px;
+
+    */
+    text-align: center
+ }
+ .largerearplatecar-slogan-1 {
+    background-color: #fec224;
+    color: #000;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin: 5px auto;
+    padding: 0 10px;
+    width: auto;
+ }
+ .increment {
+    border: 0px solid #ccc;
+    border-radius: 3px;
+    font-family: inherit;
+    padding: 6px;
+    padding: 0.428571429rem;
+    width: 10px;
+    float: right;
+ }
+ .button-container {
+    width: 90px;
+ }
+ .cart-qty-plus {
+    background-color: #e9d12e;
+    border-radius: 15px;
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+    padding: 0px;
+    line-height: 11px;
+ }
+ .cart-qty-plus:hover {
+    background-color: #cfb924;
+ }
+ .cart-qty-minus {
+    background-color: #e9d12e;
+    border-radius: 15px;
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+    padding: 0px;
+    line-height: 11px;
+ }
+ .cart-qty-minus:hover {
+    background-color: #cfb924;
+ }
+ .bridge-div-img img {
+    padding: 0px;
+    height: auto;
+    width: 100%;
+    height: 133px;
+ }
+ #model_specific_1_front_Y {
+    font-size: 90px;
+    ;
+ }
+ #model_specific_1_front_Y, .images_black_alpha {
+    height: 100px;
+ }
+ #model_specific_1_platdiv_Y {
+    border-radius: 25px 25px 127px 127px !important;
+ }
+ #model_specific_1_platdiv_w {
+    width: 660px;
+ }
+ #model_specific_1_front_W {
+    /*margin-top: 15px;*/
+ }
+ #model_specific_1_front_W, .images_black_alpha {
+    height: 90px;
+    margin-top: 15px;
+ }
+ #model_specific_1_front_Y h2 {
+    font-size: 90px;
+    font-family: "REGISTRATION PLATE UK";
+    ;
+ }
+ #jagwrSTypeV1_front_Y h2 {
+    font-size: 90px;
+    font-family: "REGISTRATION PLATE UK";
+    ;
+ }
+ #jagwrSTypeV1_platdiv_Y {
+    border-radius: 80px 80px 155px 155px !important;
+ }
+ #jagwrSTypeV1_platdiv_w {
+    width: 660px;
+ }
+ #jagwrSTypeV1_front_W {
+    /* margin-top: 15px;*/
+ }
+ #jagwrTypeV2_front_Y h2 {
+    font-size: 90px;
+    font-family: "REGISTRATION PLATE UK";
+    ;
+ }
+ #jagwrTypeV2_platdiv_Y {
+    border-radius: 24px 24px 100px 100px !important;
+ }
+ #jagwrTypeV2_front_W {
+    /*margin-top: 15px;*/
+ }
+ #ranRovSpoV1_front_Y h2 {
+    font-size: 90px;
+    font-family: "REGISTRATION PLATE UK";
+    ;
+ }
+ #ranRovSpoV1_platdiv_Y {
+    border-radius: 60px !important;
+ }
+ #ranRovSpoV1_platdiv_w {
+    width: 95%;
+ }
+ #ranRovSpoV1_front_W {
+    /*margin-top: 15px;*/
+ }
+ /*.images_black_alpha{ height: 100px;}*/
+
+ .platdiv_w img, .platdiv_Y img, .standerd_platdiv_Y img {
+    margin-top: 0 !important;
+ }
+ #motorcycle-plates img {
+    height: 124px;
+ }
+ #model_specific_1_platdiv_w img {
+    margin-top: 0px;
+ }
+ @media(max-width:480px) {
+    #plateNavContainer {
+        width: 98%;
+    }
+    #plateNav {
+        width: 98%;
+    }
+    #model_specific_1_front_W, .images_black_alpha {
+        height: 38px !important;
+    }
+    .motorcycle-plates {
+        width: 100%;
+        min-height: 186px;
+    }
+    .largerearplatecar-1 {
+        min-height: 100px;
+    }
+    #model_specific_1_front_Y {
+        font-size: 60px;
+    }
+    .Standard-4x4-plates {
+        width: 100%;
+        min-height: 100px;
+    }
+    .largerearplatecar {
+        min-height: 106px;
+    }
+    .Standard-4x4-plates-1 {
+        width: 100%;
+        min-height: 152px;
+    }
+    #platespace {
+        width: 96% !important;
+    }
+    .front-defolt {
+        min-height: 100px !important;
+    }
+    .badge-bgclr img {
+        height: 95px !important;
+    }
+    .front-boder {
+        min-height: 80px;
+        width: 98% !important;
+    }
+    .front-bredge-2 {
+        width: 81% !important;
+    }
+    .front-defolt h2 {
+        font-size: 2em !important;
+    }
+    .front-bredge-3 {
+        min-height: 85px !important;
+        padding-top: 10px;
+    }
+    .button-2 {
+        float: none !important;
+    }
+    .motorcycle-plates-boder-1 {
+        min-height: 175px !important;
+    }
+    .motorcycle-plates-boder-2, .Standard-4x4-plates-boder-3 {
+        padding-left: 0 !important;
+    }
+    .largerearplatecar large_platdiv_w, .largerearplatecar-boder-3 {
+        width: 85% !important;
+        padding-left: 30px !important;
+    }
+    #model_specific_1_front_W, .images_black_alpha {
+        padding: 0 2px 0 0 !important;
+    }
+    .badge-bgclr {
+        padding: 0 8px;
+    }
+    .Standard-4x4-plates-boder-1 {
+        width: 45px !important;
+    }
+    .largerearplatecar-boder-1 {
+        width: 35px !important;
+    }
+    .largerearplatecar-1 .front-boder {
+        padding-left: 20px !important;
+    }
+    /*.slogan{text-indent:4em !important;}*/
+ }
+ #plateprice {
+    float: left;
+    overflow: hidden;
+ }
+ #buttonReset span {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 700;
+    color: #333333;
+    text-decoration: none;
+    margin: 0 0 5px;
+ }
+ #buttonReset {
+    float: left;
+    margin-right: 8px;
+ }
+ .slogan {
+    background-color: transparent;
+    color: black;
+    font-size: small;
+    font-family: 'Roboto', sans-serif;
+    ;
+    font-weight: 500;
+ }

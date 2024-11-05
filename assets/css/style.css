@@ -1,0 +1,569 @@
+/* --------------------------------------------------------------------------------
+                                    Banner Slider
+-------------------------------------------------------------------------------- */
+#cs_banner {
+    position: relative;
+    z-index:5;
+}
+#cs_banner #banner_slider {}
+#cs_banner #banner_slider .item {
+    position:relative;
+}
+#cs_banner #banner_slider .item img {}
+#cs_banner #banner_slider .item .caption {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    max-width: 700px;
+    color: #fff;
+    padding: 30px 80px;
+    text-align: left;
+    background-color: rgba(0, 45, 59, 0.74);
+    clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+}
+#cs_banner #banner_slider .item .caption h1 {
+    font-size: 36px;
+    text-transform: capitalize;
+    color: #fff;
+    letter-spacing: 2px;
+}
+#cs_banner #banner_slider .item .caption h1 span {
+	color:#009ae1;
+}
+#cs_banner #banner_slider .item .caption p {
+	font-weight: 400;
+    font-size: 18px;
+    font-style: italic;
+}
+#cs_banner #banner_slider .owl-dots {
+    margin: 0px;
+    position: absolute;
+    width: 100%;
+    bottom: 10%;
+    left: 5%;
+    text-align: left;
+}
+#cs_banner #banner_slider .owl-dots .owl-dot {
+    display: inline-block;
+    margin: 0px;
+}
+#cs_banner #banner_slider .owl-dots .owl-dot span {
+    width: 15px;
+    height: 15px;
+    border-radius: 0;
+    background-color: #fff;
+    margin: 0px 3px;
+    transition: 0.6s;
+    transform: skew(-20deg);
+}
+#cs_banner #banner_slider .owl-dots .owl-dot.active {}
+#cs_banner #banner_slider .owl-dots .owl-dot.active span {
+    background-color: #009ae1;
+}
+#cs_banner #banner_slider .owl-nav {
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+#cs_banner #banner_slider .owl-nav [class*=owl-] {
+	width: 40px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 0px;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    background-color: rgba(0, 154, 225, 0.73);
+}
+#cs_banner #banner_slider .owl-nav .owl-prev {
+	left: 0;
+}
+#cs_banner #banner_slider .owl-nav .owl-next {
+	right: 0;
+}
+/* --------------------------------------------------------------------------------
+                                    About Us
+-------------------------------------------------------------------------------- */
+#cs_about_us {}
+#cs_about_us .grid_left {}
+#cs_about_us .grid_left .img_sec {
+	box-shadow: 1px 1px 6px 1px #9c9898;
+    width: 70%;
+    margin: auto;
+}
+#cs_about_us .grid_left .img_sec img {}
+#cs_about_us .grid_right {}
+#cs_about_us .grid_right p {
+	font-size: 16px;
+    margin-bottom: 30px;
+}
+/* --------------------------------------------------------------------------------
+                                    Our Promise
+-------------------------------------------------------------------------------- */
+#cs_our_promise {}
+#cs_our_promise .gridi {
+	background-color: #ececec;
+    padding: 50px 25px;
+    clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%);
+    text-align: center;
+    height: 100%;
+}
+#cs_our_promise .gridi .img_sec {
+	margin-bottom: 20px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: #002d3b;
+    border-radius: 50%;
+}
+#cs_our_promise .gridi .img_sec img {
+	width: 60px;
+}
+#cs_our_promise .gridi .description {}
+#cs_our_promise .gridi .description h2 {
+	font-size: 24px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+#cs_our_promise .gridi .description p {
+	margin: 0px;
+}
+/* --------------------------------------------------------------------------------
+                                    Our Services
+-------------------------------------------------------------------------------- */
+#cs_our_service {
+	background-image:linear-gradient(135deg, rgb(0, 45, 59) 1%, rgb(0, 102, 112) 100%);
+}
+#cs_our_service .gridi {
+	background-color: #fff;
+    padding:25px;
+    text-align: center;
+    height: 100%;
+}
+#cs_our_service .gridi .img_sec {
+	margin-bottom: 20px;
+}
+#cs_our_service .gridi .img_sec img {
+	width: 100px;
+}
+#cs_our_service .gridi .description {}
+#cs_our_service .gridi .description h2 {
+	font-size: 24px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+#cs_our_service .gridi .description p {
+	margin: 0px;
+}
+/* --------------------------------------------------------------------------------
+                                    Gallery
+-------------------------------------------------------------------------------- */
+#cs_gallery {}
+#cs_gallery .cus_col {
+    padding: 1px;
+}
+#cs_gallery .cus_col .grid {
+    position: relative;
+    overflow:hidden;
+}
+#cs_gallery .cus_col .grid img {
+    width: 100%;
+    transition:0.6s;
+    transform:scale(1, 1);
+}
+#cs_gallery .cus_col .grid:hover img {
+    transform:scale(1.2, 1.2);
+}
+#cs_gallery .cus_col .grid .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    padding: 25px;
+    text-align: center;
+    transition:0.6s;
+    opacity:0.6;
+    transform: scale(0, 0);
+}
+#cs_gallery .cus_col .grid:hover .overlay {
+    transform: scale(1, 1);
+    opacity:1;
+}
+#cs_gallery .cus_col .grid .overlay a.link {
+    margin: 0;
+    color: #fff;
+    font-size: 100px;
+    font-weight: 300;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+/* --------------------------------------------------------------------------------
+                                    Contact
+-------------------------------------------------------------------------------- */
+#cs_contact {
+	background-color: #ececec;
+}
+#cs_contact .heading {
+	margin-top:50px;
+	margin-bottom:30px;
+}
+#cs_contact .grid_left {
+    width: 80%;
+    margin: auto;
+    padding:50px 0px;
+}
+#cs_contact .grid_right {
+	height:100%;
+}
+/* --------------------------------------------------------------------------------
+                                    About Us Page
+-------------------------------------------------------------------------------- */
+#about_page {
+    padding: 80px 0px;
+}
+#about_page .about_grid {
+    display:flex;
+    margin-bottom:3em;
+    flex-wrap: wrap;
+}
+#about_page .about_grid:nth-child(odd) {
+    flex-direction:row-reverse;
+}
+#about_page .about_grid .grid {}
+#about_page .about_grid .grid.grid_left {
+    width:65%;
+    padding:30px;
+}
+#about_page .about_grid .grid.grid_left h3 {
+    position:relative;
+    padding:10px 10px 10px 30px;
+    margin-bottom:2em;
+}
+#about_page .about_grid .grid.grid_left h3:before {
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:2px;
+    height:100%;
+    background-color:#009ae1;
+}
+#about_page .about_grid .grid.grid_left p {}
+#about_page .about_grid .grid.grid_right {
+    width:35%;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    z-index: 3;
+    cursor: pointer;
+    box-shadow: 1px 1px 6px 1px #9c9898;
+    padding:50px 0px;
+}
+#about_page .about_grid .grid.grid_right img {
+    max-width: 100%;
+    -webkit-transition: all 400ms linear 0s;
+    -o-transition: all 400ms linear 0s;
+    transition: all 400ms linear 0s;
+}
+#about_page .about_grid .grid.grid_right:hover img {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+/* --------------------------------------------------------------------------------
+                                    Customize Plate Page
+-------------------------------------------------------------------------------- */
+#cs_plate_frame {
+    
+}
+#cs_plate_frame #iframeID {
+    width:100%;
+    min-height:700px;
+    border: none;
+}
+#cs_plate_frame #iframeID ::-webkit-scrollbar {
+    width: 50px;
+}
+#cs_plate_frame #iframeID ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+#cs_plate_frame #iframeID ::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+#cs_plate_frame #iframeID ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+/* --------------------------------------------------------------------------------
+                                    Contact Us Page
+-------------------------------------------------------------------------------- */
+#cs_contact_page {
+
+}
+#cs_contact_page .grid_left {
+    
+}
+#cs_contact_page .grid_left h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+#cs_contact_page .grid_left li {
+    margin-bottom:1em;
+}
+#cs_contact_page .grid_left label {
+    font-weight: 500;
+}
+#cs_contact_page .grid_left .form-control {}
+#cs_contact_page .grid_left iframe {
+    width:100%;
+    height:400px;
+}
+#cs_contact_page .grid_right {
+    border: 1px solid #dedede;
+    padding:20px;
+}
+#cs_contact_page .grid_right h6 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color:#666;
+}
+#cs_contact_page .grid_right p {
+    font-size: 12px;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+/* --------------------------------------------------------------------------------
+                                    Fitting Page
+-------------------------------------------------------------------------------- */
+#cs_fitting {
+    
+}
+#cs_fitting .gridi {
+    padding: 15px;
+    box-shadow: 0px 2px 10px 1px rgba(153, 153, 153, 0.4);
+    margin-bottom: 30px;
+}
+#cs_fitting .gridi:hover {
+    
+}
+#cs_fitting .gridi .img_sec {
+    margin-bottom: 10px;
+}
+#cs_fitting .gridi .img_sec img {
+    
+}
+#cs_fitting .gridi .details_sec {
+    
+}
+#cs_fitting .gridi .details_sec h3 {
+    font-size: 20px;
+    color: #333;
+}
+#cs_fitting .gridi .details_sec p {
+    
+}
+#cs_fitting .gridi .details_sec p:last-child {
+    margin-bottom: 0px;
+}
+/* --------------------------------------------------------------------------------
+                                    Q & A Page
+-------------------------------------------------------------------------------- */
+#q_a_page {
+
+}
+#q_a_page .card {
+    border-radius: 0px;
+    border-color: #dadada;
+    margin-bottom:5px;
+}
+#q_a_page .card:last-child {
+    margin-bottom:0px;
+}
+#q_a_page .card .boxi {
+    border-bottom: 1px solid #dadada;
+}
+#q_a_page .card .boxi button {
+    display: block;
+    background: transparent;
+    border: none;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    color: #009ae1;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+#q_a_page .card .card-body {
+    
+}
+#q_a_page .card .card-body p {
+    
+}
+#q_a_page .card .card-body ul {
+    padding-left:50px;
+}
+#q_a_page .card .card-body ul li {
+    list-style-type: circle;
+    margin: 5px 0px;
+}
+/* --------------------------------------------------------------------------------
+                                    Cart Page
+-------------------------------------------------------------------------------- */
+#cs_cart_page {
+    
+}
+#cs_cart_page .table {
+    border:1px solid #ddd;
+}
+#cs_cart_page .table thead tr th {
+    text-transform: capitalize;
+    font-weight:700;
+    border:1px solid #ddd;
+    vertical-align:middle;
+}
+#cs_cart_page .table tbody tr td {
+    text-transform: capitalize;
+    border:1px solid #ddd;
+    vertical-align:middle;
+}
+#cs_cart_page .table tbody tr td .form-control {
+    width:150px;
+}
+#cs_cart_page .table tfoot tr td {
+    text-transform: capitalize;
+    border:1px solid #ddd;
+    vertical-align:middle;
+}
+/* --------------------------------------------------------------------------------
+                                    Checkout Page
+-------------------------------------------------------------------------------- */
+#cs_checkout {
+    
+}
+#cs_checkout .boxi {
+    border:1px solid #ddd;
+    padding-left:30px;
+    padding-right:30px;
+    padding-bottom:30px;
+}
+#cs_checkout .boxi h3 {
+    margin: 0px -30px;
+    font-size: 30px;
+    padding: 5px 20px;
+    background-color: #e6e6e6;
+    margin-bottom: 10px;
+}
+#cs_checkout .boxi input.form-control {
+    height:36px;
+    padding:5px 15px;
+}
+/* --------------------------------------------------------------------------------
+                                    Plate Type Page
+-------------------------------------------------------------------------------- */
+#cs_plate_type {
+    
+}
+#cs_plate_type #accordion {
+    margin-bottom:50px;
+}
+#cs_plate_type .card {
+    border-radius: 0px;
+    border-color: #dadada;
+    margin-bottom:5px;
+}
+#cs_plate_type .card:last-child {
+    margin-bottom:0px;
+}
+#cs_plate_type .card .boxi {
+    border-bottom: 1px solid #dadada;
+}
+#cs_plate_type .card .boxi button {
+    display: block;
+    background: transparent;
+    border: none;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    color: #009ae1;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+#cs_plate_type .card .card-body {
+    
+}
+#cs_plate_type .card .card-body p {
+    
+}
+#cs_plate_type .card .card-body ul {
+    padding-left:50px;
+}
+#cs_plate_type .card .card-body ul li {
+    list-style-type: circle;
+    margin: 5px 0px;
+}
+#cs_plate_type .boxi2 {
+    border:1px solid #ddd;
+    padding-left:30px;
+    padding-right:30px;
+    padding-bottom:30px;
+}
+#cs_plate_type .boxi2 h3 {
+    margin: 0px -30px;
+    font-size: 30px;
+    padding: 5px 20px;
+    background-color: #e6e6e6;
+    margin-bottom: 10px;
+}
+#cs_plate_type .boxi2 input.form-control,
+#cs_plate_type .boxi2 select.form-control {
+    height:38px;
+    padding:5px 15px;
+}
+/* --------------------------------------------------------------------------------
+                            Privacy Policy Page
+-------------------------------------------------------------------------------- */
+#cs_privacy_policy {
+
+}
+#cs_privacy_policy h4 {
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 10px;
+    color: #333
+}
+#cs_privacy_policy p {}
+#cs_privacy_policy .bullt {
+    padding-left: 80px
+}
+#cs_privacy_policy .bullt li {
+    list-style-type: disc;
+    margin-bottom: 10px
+}
+#cs_privacy_policy .bullt_i {
+    padding-left: 80px
+}
+#cs_privacy_policy .bullt_i li {
+    margin-bottom: 10px;
+    padding-left: 30px;
+    position: relative
+}
+#cs_privacy_policy .bullt_i li:before {
+    content: '';
+    width: 16px;
+    height: 8px;
+    position: absolute;
+    border-bottom: 1px solid #454545;
+    border-left: 1px solid #454545;
+    left: 0;
+    top: 10px;
+    transform: rotate(-45deg)
+}

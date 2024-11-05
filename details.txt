@@ -1,0 +1,17 @@
+bootstrap-4.0.0
+font-awesome-4.7.0
+owl-carousel-2.2.1
+jquery.min-3.3.1
+/* --------------------------------------------------------------------------------
+										Heading
+-------------------------------------------------------------------------------- */
+<link href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans:300,400,700" rel="stylesheet">
+
+font-family: 'Lobster', cursive;
+font-family: 'Open Sans', sans-serif;
+
+D blue --- 002d3b
+L blue --- 009ae1
+
+
+https://numberplateclinic.co.uk/gallery.php
